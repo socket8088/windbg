@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TargetConfig Name="com:pipe,resets=0,reconnect,port=\\.\pipe\kd_Win7x86" LastUsed="2024-04-20T15:17:35.3086240Z">
+  <EngineConfig />
+  <EngineOptions>
+    <Property name="InitialBreak" value="false" />
+    <Property name="InitialModuleBreak" value="true" />
+    <Property name="Elevate" value="false" />
+  </EngineOptions>
+  <TargetOptions>
+    <Option name="KernelConnect">
+      <Property name="ConnectionString" value="com:pipe,resets=0,reconnect,port=\\.\pipe\kd_Win7x86" />
+      <Property name="ConnectionType" value="Default" />
+      <Property name="QuietMode" value="false" />
+      <Property name="InitialBreak" value="false" />
+    </Option>
+  </TargetOptions>
+</TargetConfig>
